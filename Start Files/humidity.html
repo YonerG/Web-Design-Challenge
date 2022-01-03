@@ -57,7 +57,57 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
-   
+    <div class = "container">
+      <div class = "row">
+        <!--temperature analysis content-->
+        <div class = "col-md-8">
+          <article class = "description-content">
+            <h1 class="description-header">Humidity</h1>
+            <hr class="description-hr">
+          
+          <!--add the image and content-->
+          <img src="images/Fig2.png" title="City Latitude vs. Humidity"
+          class = "img-responsive">
+          <p>Based on the scatter plot, it is not easy to make a determination between latitude vs. humidity.
+            However, there are many points in the data with 100% humidity. Also, there is some clustering between
+            60-80 latitude. Overall, a consistent conclusion cannot be drawn.  </p>
+          
+        </article>
+
+        </div>
+
+        <!--second column for visualization -->
+        <div class = "col-md-4">
+          <section id="imageNav-area">
+            <div class = "imageNav-content">
+              <h2 class = "imageNav-header">Visualizations</h2>
+              <hr>
+              <div id= "images">
+                <a href="temp.html">
+                  <img src="images/Fig1.png" class= "imagNav-photo" title="Latitude Vs. Max Temperature"
+                  id = "description-image">
+                </a>
+                <a href="humidity.html">
+                  <img src="images/Fig2.png" class= "imagNav-photo active" title="Latitude Vs. Humidity"
+                  id = "description-image">
+                </a>
+                <a href="cloudiness.html">
+                  <img src="images/Fig3.png" class= "imagNav-photo" title="Latitude Vs. Cloudiness" 
+                  id = "description-image">
+                </a>
+                <a href="wind.html">
+                  <img src="images/Fig4.png" class= "imagNav-photo" title="Latitude Vs. Wind Speed"
+                  id = "description-image">
+                </a>
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+
+      </div>
+    </div>
     <!-- End of container -->
 
     <!-- Start of footer -->
